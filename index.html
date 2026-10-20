@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preload" as="image" href="/textures/paper-texture.webp" type="image/webp" fetchpriority="high" crossorigin="anonymous">
+  <!-- 本地手绘字体预加载：首屏文字立即显示，不再等字体下载 -->
+  <link rel="preload" as="font" href="/fonts/RubikScribble-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" as="font" href="/fonts/CabinSketch-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" as="font" href="/fonts/FrederickatheGreat-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" as="font" href="/fonts/CabinSketch-Bold.ttf" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" as="font" href="/fonts/WenKai-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/favico.png" />
+  <link rel="apple-touch-icon" href="/favico.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fafafa" />
+
+  <!-- SEO Meta 标签 -->
+  <title>刘镕霆 | 3D 个人作品站 · NVH 工程师</title>
+  <meta name="description"
+    content="刘镕霆（原刘前驰）的交互式 3D 个人作品站。NVH 工程师 · 车辆工程本科，专注声学振动测试、主动降噪系统与 AI 应用，探索 WebGL 3D 手绘风格作品画廊。" />
+  <meta name="author" content="刘镕霆" />
+  <meta name="keywords"
+    content="刘镕霆, 刘前驰, NVH工程师, 主动降噪, 声学振动, 车辆工程, 南通理工学院, 3D 个人网站, Three.js 作品, 上海" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://liurongting.pages.dev/" />
+
+  <!-- Open Graph (Facebook, LinkedIn, Discord) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="刘镕霆 | 3D 个人作品站 · NVH 工程师" />
+  <meta property="og:description"
+    content="刘镕霆（原刘前驰）的交互式 3D 个人作品站。NVH 工程师 · 车辆工程本科，专注声学振动测试、主动降噪系统与 AI 应用。" />
+  <meta property="og:url" content="https://liurongting.pages.dev/" />
+  <meta property="og:site_name" content="刘镕霆作品站" />
+  <meta property="og:image" content="https://liurongting.pages.dev/og-image.webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="zh_CN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="刘镕霆 | 3D 个人作品站 · NVH 工程师" />
+  <meta name="twitter:description"
+    content="刘镕霆（原刘前驰）的交互式 3D 个人作品站。NVH 工程师 · 车辆工程本科，专注声学振动测试、主动降噪系统与 AI 应用。" />
+  <meta name="twitter:image" content="https://liurongting.pages.dev/og-image.webp" />
+
+  <!-- Google Fonts: Hand-drawn + Primary -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Gloria+Hallelujah&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    /* 绝对 SEO 文本隐藏 - 对搜索引擎完全可见，对用户不可见 */
+    .sr-only-seo {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-BRIjRbh4.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-three-DGjefkwL.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-react-Cgg2GOmP.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-r3f-BmLUYlqW.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-animation-DDlvirwQ.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-Bl_miHUk.css">
+</head>
+
+<body>
+  <!-- SEO 回退内容（WebGL SPA，2026 爬虫优化） -->
+  <div id="seo-content" class="sr-only-seo">
+    <header>
+      <h1>刘镕霆（原刘前驰）| NVH 工程师 · 车辆工程 · 3D 手绘风个人作品站</h1>
+      <p>基于 WebGL 的交互式个人作品站，融合现代前端工程与沉浸式 3D 手绘艺术，展示我的声学振动、主动降噪与 AI 应用探索。</p>
+    </header>
+
+    <nav aria-label="主导航">
+      <ul>
+        <li><a href="/">首页（入口走廊）</a></li>
+        <li><a href="/gallery">作品画廊与项目</a></li>
+        <li><a href="/about">关于我</a></li>
+        <li><a href="/contact">联系我</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <article id="home-corridor">
+        <header>
+          <h2>体验 3D 手绘走廊：一段声学与代码的旅程</h2>
+        </header>
+        <section>
+          <h3>欢迎来到刘镕霆的 3D 数字世界</h3>
+          <p>
+            欢迎来到 <strong>刘镕霆</strong>（原刘前驰）的交互式 3D 个人作品站。
+            我是一名 NVH 工程师，车辆工程专业本科毕业，现居上海，专注声学振动测试、主动降噪系统与 AI 工具应用。
+            这个网站不是一份普通简历，而是一个完全从零构建的沉浸式、可交互的 WebGL 体验：
+            当你进入这个作品站，你会置身于一个精心手绘的 3D 走廊，每一张纹理、每一帧画面、每一个交互元素都经过手工打磨。
+          </p>
+          <p>
+            作为 NVH 工程师，我的目标是把振动噪声测试与数据分析做到极致，并探索 AI 与自动化在工程中的应用。
+            我擅长使用 MATLAB/Simulink、ANSYS、CATIA 等工具，也曾开发"万答通"AI 办公软件提升团队效率。
+            走廊是中心枢纽，四扇门通向我的不同面向：我的项目、我的故事、我的联系方式。
+            享受无缝转场、细腻纹理和打破传统简历套路的独特界面吧。
+          </p>
+        </section>
+      </article>
+
+      <article id="about-me">
+        <header>
+          <h2>关于刘镕霆：从贵州到上海的声学工程师</h2>
+        </header>
+        <section>
+          <h3>我的成长历程</h3>
+          <p>
+            我是 <strong>刘镕霆</strong>（原刘前驰），2002 年出生于贵州省遵义市绥阳县。
+            2022 年进入南通理工学院车辆工程专业，大一大二曾挂科十余门，大三起奋起直追，大四取得智育成绩年级第一（1/173）、综测年级第三。
+            获国家励志奖学金、校级三好学生、优秀学生干部等荣誉。
+            实习经历包括奇瑞汽车设备物流（海康 AMR 运维、夜班班组长）、南通格陆博机电液部（万答通 AI 工具）等。
+            现于上海从事 NVH 工程师工作，负责数采传感器方向。
+          </p>
+        </section>
+        <section>
+          <h3>核心技能</h3>
+          <p>
+            作为车辆工程专业的 NVH 工程师，我的技能栈围绕振动噪声测试与数据分析构建：
+          </p>
+          <ul>
+            <li><strong>NVH 与主动控制：</strong> 模态分析、谐响应、噪声测试；毕业设计完成基于 LMS 算法的车用主动降噪系统（FxLMS 自适应步长，降噪 15-22dB）。</li>
+            <li><strong>仿真与建模：</strong> MATLAB/Simulink 控制仿真、ANSYS 有限元、CATIA/AutoCAD 三维建模（中级）、UG。</li>
+            <li><strong>编程与嵌入式：</strong> C 语言 DSP 开发、Python 数据处理与可视化、PCB 高级证。</li>
+            <li><strong>AI 与自动化：</strong> 开发"万答通"AI 办公软件、AMR 机器人运维管理，用 AI 提升团队效率 15%-20%。</li>
+            <li><strong>设备与测试：</strong> 数采传感器、整车性能测试、减震器迟滞回线分析。</li>
+          </ul>
+        </section>
+      </article>
+
+      <article id="gallery-projects">
+        <header>
+          <h2>作品画廊：项目与案例</h2>
+        </header>
+        <p>
+          在 3D 作品画廊房间中，你可以走过一场我的代表性项目展览。以下是刘镕霆主要作品的详细介绍。
+        </p>
+
+        <section>
+          <h3>基于 LMS 算法的车用主动降噪系统设计（毕业设计）</h3>
+          <p>
+            <strong>LMS 主动降噪系统</strong>是我的毕业设计核心成果：采用 FxLMS 自适应步长算法，
+            在创龙 TL6748-EVM 硬件平台上实现车用主动降噪，实测降噪 15-22dB，收敛时间缩短 60%。
+            项目涵盖 MATLAB/Simulink 仿真、DSP 嵌入式实现与整车噪声测试全流程。
+          </p>
+        </section>
+
+        <section>
+          <h3>万答通 AI 办公软件</h3>
+          <p>
+            <strong>万答通</strong>是格陆博机电液部实习期间开发的 AI 办公工具，
+            将日常重复性工作自动化，团队办公效率提升约 20%。
+          </p>
+        </section>
+
+        <section>
+          <h3>AMR 智能化物流车间管理（奇瑞实习）</h3>
+          <p>
+            <strong>AMR 智能物流车间</strong>项目源自奇瑞汽车设备动力科实习：
+            负责海康 AMR 机器人运维管理并担任夜班班组长，AI 分类与调度让物流效率提升 15%，
+            问题日报沉淀为可检索案例库。
+          </p>
+        </section>
+
+        <section>
+          <h3>持续学习与探索</h3>
+          <p>
+            除了上述核心成果，我还在不断探索车辆智能控制、AI 辅助驾驶、城市道路安全等方向，
+            并持续用 MATLAB 小车倒立摆、道路避障等实验视频记录学习过程。
+            你可以通过网站的下载区获取我的简历、毕设视频等项目资料。
+          </p>
+        </section>
+      </article>
+
+      <article id="contact-room">
+        <header>
+          <h2>让我们一起创造：联系刘镕霆</h2>
+        </header>
+        <section>
+          <h3>合作、交流与职业机会</h3>
+          <p>
+            想招聘一名专注 NVH 测试与主动降噪的工程师，或寻求声学振动方向的合作？
+            刘镕霆乐于探讨新项目、技术交流与职业机会。
+            我重视清晰沟通、准时交付与可落地的成果。
+            如果你对汽车振动噪声、主动降噪或 AI 办公自动化感兴趣，欢迎随时联系我。
+          </p>
+        </section>
+
+        <aside>
+          <h3>与刘镕霆取得联系</h3>
+          <p>
+            准备好开始对话了吗？你可以在交互式 3D 作品站的"联系我"房间中找到留言纸和联系方式，
+            也可以直接通过 QQ 邮箱（1906873198@qq.com）或电话（18785289104）联系我。
+            我乐于分享技术见解、项目进展与职业思考。
+          </p>
+        </aside>
+      </article>
+    </main>
+  </div>
+
+  <!-- Noscript 兜底 -->
+  <noscript>
+    请启用 JavaScript 以体验刘镕霆（原刘前驰）的交互式 3D 个人作品站。
+  </noscript>
+
+  <div id="root"></div>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+https://liurongting.pages.dev/*
+  X-Robots-Tag: index, follow
+
+https://liurongting.pages.dev/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Cache static assets for 1 year (Performance & SEO Server Score)
+https://liurongting.pages.dev/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+https://liurongting.pages.dev/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+https://liurongting.pages.dev/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+https://liurongting.pages.dev/*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+https://liurongting.pages.dev/*.ktx2
+  Cache-Control: public, max-age=31536000, immutable
+
+https://liurongting.pages.dev/*.glb
+  Cache-Control: public, max-age=31536000, immutable
+
+https://liurongting.pages.dev/*.mp3
+  Cache-Control: public, max-age=31536000, immutable
+
+https://liurongting.pages.dev/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+https://liurongting.pages.dev/files/*
+  Cache-Control: public, max-age=31536000, immutable
